@@ -242,7 +242,7 @@
 
         function showNextImage(){
             const src = certificates[currentIndex];
-            imageContainer.innerHTML = `<img src="/my certificates/${src}" alt="">`;
+            imageContainer.innerHTML = `<img src="my certificates/${src}" alt="">`;
             if(currentIndex+1 == certificates.length){
                 currentIndex = 0;
             }else{
